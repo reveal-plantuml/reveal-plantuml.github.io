@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/szkiba/reveal-plantuml.git"
+    "url": "git+https://github.com/reveal-plantuml/reveal-plantuml.github.io.git"
   },
   "keywords": [
     "docsify",
@@ -22,9 +22,9 @@
   "author": "Ivan Szkiba",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/szkiba/reveal-plantuml/issues"
+    "url": "https://github.com/reveal-plantuml/reveal-plantuml.github.io/issues"
   },
-  "homepage": "https://github.com/szkiba/reveal-plantuml",
+  "homepage": "https://reveal-plantuml.github.io",
   "devDependencies": {
     "plantuml-encoder": "^1.4.0",
     "webpack": "^4.41.5",
