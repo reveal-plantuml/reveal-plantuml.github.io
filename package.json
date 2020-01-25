@@ -1,0 +1,33 @@
+{
+  "name": "reveal-plantuml",
+  "version": "1.0.0",
+  "description": "A reveal.js plugin that allow using PlantUML diagrams on slides.",
+  "main": "dist/reveal-plantuml.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szkiba/reveal-plantuml.git"
+  },
+  "keywords": [
+    "docsify",
+    "mustache",
+    "frontmatter"
+  ],
+  "author": "Ivan Szkiba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szkiba/reveal-plantuml/issues"
+  },
+  "homepage": "https://github.com/szkiba/reveal-plantuml",
+  "devDependencies": {
+    "plantuml-encoder": "^1.4.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
