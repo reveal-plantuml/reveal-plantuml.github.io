@@ -1,6 +1,6 @@
 {
   "name": "reveal-plantuml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reveal.js plugin that allow using PlantUML diagrams on slides.",
   "main": "dist/reveal-plantuml.min.js",
   "files": [
@@ -15,9 +15,8 @@
     "url": "git+https://github.com/reveal-plantuml/reveal-plantuml.github.io.git"
   },
   "keywords": [
-    "docsify",
-    "mustache",
-    "frontmatter"
+    "reveal",
+    "plantuml"
   ],
   "author": "Ivan Szkiba",
   "license": "MIT",
