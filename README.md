@@ -28,7 +28,7 @@ npm i reveal-plantuml
 
 Simply put PlantUML diagrams in code block. In markdown use `plantuml` language type:
 
-<pre><code>```markdown
+<pre><code>```plantuml
 @startuml
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
