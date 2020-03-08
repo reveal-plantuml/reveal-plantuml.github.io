@@ -19,9 +19,10 @@
             var config = Reveal.getConfig().plantuml || {};
             var server = config.serverPath || '//www.plantuml.com/plantuml/svg/';
 
-            document.querySelectorAll('.reveal pre code.language-plantuml').forEach(function (block) {
-                let img = document.createElement("img");
-                img.setAttribute("src", server + encoder.encode(block.innerText));
+            document.querySelectorAll('.reveal pre code.lang-plantuml').forEach(function (block) {
+                let img = document.createElement("object");
+                img.type="image/svg+xml";
+                img.setAttribute("data", server + encoder.encode(block.innerText));
 
                 let pre = block.parentElement;
                 pre.parentNode.replaceChild(img, pre);
