@@ -21,7 +21,7 @@
 
             document.querySelectorAll('.reveal pre code.language-plantuml').forEach(function (block) {
                 let img = document.createElement("img");
-                img.setAttribute("src", server + encoder.encode(block.innerText));
+                img.setAttribute("src", server + encoder.encode(block.textContents));
 
                 let pre = block.parentElement;
                 pre.parentNode.replaceChild(img, pre);
